@@ -1,0 +1,16 @@
+<h2>Convenio de Pago</h2>
+
+<form [formGroup]="form" (ngSubmit)="submit()">
+
+  <input placeholder="Nombre" formControlName="fullName"><br>
+  <input placeholder="Cédula" formControlName="identification"><br>
+  <input placeholder="Email" formControlName="email"><br>
+  <input placeholder="Teléfono" formControlName="phone"><br>
+
+  <input type="number" placeholder="Deuda" formControlName="debtAmount"><br>
+  <input type="number" placeholder="Pago propuesto" formControlName="proposedPayment"><br>
+  <input type="number" placeholder="Días de mora" formControlName="daysOverdue"><br>
+
+  <button type="submit">Enviar</button>
+
+</form>
