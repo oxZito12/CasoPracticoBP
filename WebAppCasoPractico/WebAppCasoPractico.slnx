@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../WebAppCasoPractico.Dominio/WebAppCasoPractico.Dominio/WebAppCasoPractico.Dominio.csproj" />
+  <Project Path="WebAppCasoPractico/WebAppCasoPractico.csproj" />
+</Solution>
